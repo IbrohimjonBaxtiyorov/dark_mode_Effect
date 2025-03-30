@@ -12,6 +12,8 @@ const disabledark=()=>{
 }
 if(darkmode === "active"){
     enableDark()
+}else{
+    disabledark()
 }
 themeSwitch.addEventListener('click', ()=>{
     darkmode=localStorage.getItem('darkmode')
