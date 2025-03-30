@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 200px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slider {
+    width: 1200px;
+    overflow-x: scroll;
+    display: flex;
+    gap: 30px;
+}
+
+.slider::-webkit-scrollbar {
+    display: none;
+}
+
+.btn {
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.btn button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    background-color: #000;
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+
+button:hover {
+    background-color: rgb(18, 18, 80);
+}

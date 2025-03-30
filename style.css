@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 10px;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 10px;
+    font-size: 20px;
+
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title {
+    margin-bottom: 30px;
+}
+
+.desc {
+    font-size: 30px;
+}
+
+.darkmode {
+    background-color: black;
+    color: wheat;
+    transition :background-color 0.5s ease, color 0.5s ease ;
+}
+
+.btn {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    right: 10px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.moon {
+    display: none;
+}
+
+.darkmode .sun {
+    display: none;
+}
+
+.darkmode .moon {
+    display: block;
+}
+.link a{
+   text-decoration: none;
+   font-size: 30px;
+}
